@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Scoreboard</string>
+    <string name="title_activity_scoreboard">ScoreboardActivity</string>
+    <string name="title_activity_roster_activity.kt">RosterActivity.kt</string>
+    <string name="title_activity_roster">RosterActivity</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_victory">VictoryActivity</string>
+</resources>
