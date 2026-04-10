@@ -24,6 +24,12 @@ class RulesActivity : ComponentActivity() {
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
+                Row(modifier = Modifier.fillMaxWidth()) {
+                    TextButton(onClick = { finish() }) {
+                        Text("< Back to Leagues")
+                    }
+                }
+
                 Image(painter = painterResource(id = R.drawable.volleyball), contentDescription = null, Modifier.size(120.dp))
                 Spacer(Modifier.height(16.dp))
                 Text("Volleyball Scoreboard", fontSize = 28.sp, fontWeight = FontWeight.Bold)
